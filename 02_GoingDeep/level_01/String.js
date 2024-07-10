@@ -67,3 +67,13 @@ const getSliced = (theString , start , end) => {
     
 }
 
+const getReplacedString = (MainString , replaceThis , byThis) => {
+
+    console.log(`Original String: ${MainString}`);
+    // If Input is not present it returns the same string i guess check it out!!
+    const replacedString = MainString.replace(replaceThis , byThis);
+
+    console.log(`Replaced: '${replaceThis}' By: '${byThis}' From the Mainstring: '${MainString}'`);
+    console.log(`Final String: ${replacedString}`)
+}
+
